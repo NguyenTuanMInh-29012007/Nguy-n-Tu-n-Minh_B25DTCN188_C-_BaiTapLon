@@ -327,8 +327,6 @@ int main() {
             subMenu(studentManager);
         }
     } while (choice != 0);
-
-    delete classManager;
-    delete studentManager;
     return 0;
 }
+
